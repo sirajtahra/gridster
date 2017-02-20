@@ -1,0 +1,22 @@
+{
+  "name": "widgets-starter",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Siraj Tahra"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "angular-local-storage": "^0.5.2"
+  }
+}

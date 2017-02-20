@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Widgets-Starter</title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/dsmorse-gridster.js/dist/jquery.gridster.min.css">
+
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <!-- angular -->
+    <script src="/bower_components/angular/angular.min.js" charset="utf-8"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js" charset="utf-8"></script>
+
+    <!-- jquery & jquery plugins -->
+    <script src="/bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="lib/dsmorse-gridster.js/dist/jquery.gridster.min.js" charset="utf-8"></script>
+
+    <!-- bootstrap  -->
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+
+    <!-- controllers -->
+    <script src="index.js" charset="utf-8"></script>
+    <script src="controllers/demoController.js" charset="utf-8"></script>
+
+    <!-- components -->
+    <script src="components/navbar/navbar.js" charset="utf-8"></script>
+
+</head>
+
+<body ng-app="widgetsApp">
+    <navbar></navbar>
+    <ui-view></ui-view>
+</body>
+
+</html>
